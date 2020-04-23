@@ -23,8 +23,6 @@ textarea{
   background-image: url(https://images.wallpapersden.com/image/download/new-york-city-street-photography_60649_3840x2160.jpg);
   background-position: center;
   background-size: cover;
-  /* background-image: linear-gradient(to right, #0575E6 0%, #021B79 51%, #0575E6 100%); */
-  /* background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%); */
   color: white;
   border-radius: 0;
   border-bottom: 3px solid black;
@@ -74,9 +72,6 @@ textarea{
 }
 
 .hour {
-  /* background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,17 +100,13 @@ textarea{
 }
 
 .saveBtn {
-  /* border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5; */
   color: black;
   font-size: 3rem;
 }
 
 .saveBtn i:hover {
-  font-size: 3rem;
   transition: all .3s ease-in-out;
+  transform: scale(1.2) ;
 }
 
 /* Sticky Footer Classes */
@@ -136,4 +127,48 @@ body {
 
 #sticky-footer {
   flex-shrink: 0;
+}
+
+.delaytitle {
+  animation-delay: 700ms;
+}
+
+.delayclock {
+  animation-delay: 1100ms;
+}
+
+.delay9am {
+  animation-delay: 1.15s;
+}
+
+.delay10am {
+  animation-delay: 1.2s;
+}
+
+.delay11am {
+  animation-delay: 1.25s;
+}
+
+.delay12pm {
+  animation-delay: 1.3s;
+}
+
+.delay1pm {
+  animation-delay: 1.35s;
+}
+
+.delay2pm {
+  animation-delay: 1.4s;
+}
+
+.delay3pm {
+  animation-delay: 1.45s;
+}
+
+.delay4pm {
+  animation-delay: 1.5s;
+}
+
+.delay5pm {
+  animation-delay: 1.55s;
 }
