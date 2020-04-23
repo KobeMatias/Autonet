@@ -1,7 +1,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 textarea{
@@ -11,15 +15,48 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-image: url(https://images.wallpapersden.com/image/download/new-york-city-street-photography_60649_3840x2160.jpg);
+  background-position: center;
+  background-size: cover;
+  /* background-image: linear-gradient(to right, #0575E6 0%, #021B79 51%, #0575E6 100%); */
+  /* background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%); */
+  color: white;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 3px solid black;
+  font-family: 'Open Sans', sans-serif;
 }
+
+.display-2 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.display-5 {
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #000000;
+  border-radius: 1rem;
+  width: 45%;
+  padding: 10px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+#currentDay {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  background-color: #000000;
+  border-radius: 1rem;
+  width: 25%;
+  padding: 10px;
+  margin: 0 auto;
+}
+
 
 .description{
   white-space: pre-wrap;
@@ -32,8 +69,8 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid black;
+  margin-bottom: 20px;
 }
 
 .hour {
@@ -43,6 +80,13 @@ textarea{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  color: black;
+}
+
+.fa-save {
+  color: black;
 }
 
 .past {
@@ -72,4 +116,24 @@ textarea{
 .saveBtn i:hover {
   font-size: 3rem;
   transition: all .3s ease-in-out;
+}
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: 0;
 }
